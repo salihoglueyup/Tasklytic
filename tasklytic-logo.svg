@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#grad1)" opacity="0.1"/>
+  
+  <!-- Main Circle -->
+  <circle cx="100" cy="100" r="80" fill="url(#grad1)" />
+  
+  <!-- Checkmark -->
+  <path d="M 60 100 L 85 125 L 140 70" 
+        stroke="white" 
+        stroke-width="12" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"
+        fill="none"/>
+  
+  <!-- Analytics Line -->
+  <g opacity="0.8">
+    <circle cx="50" cy="140" r="4" fill="url(#grad2)"/>
+    <circle cx="70" cy="125" r="4" fill="url(#grad2)"/>
+    <circle cx="90" cy="135" r="4" fill="url(#grad2)"/>
+    <circle cx="110" cy="115" r="4" fill="url(#grad2)"/>
+    <circle cx="130" cy="120" r="4" fill="url(#grad2)"/>
+    <circle cx="150" cy="105" r="4" fill="url(#grad2)"/>
+    
+    <path d="M 50 140 L 70 125 L 90 135 L 110 115 L 130 120 L 150 105" 
+          stroke="url(#grad2)" 
+          stroke-width="2" 
+          fill="none"
+          stroke-linecap="round"/>
+  </g>
+  
+  <!-- Sparkles -->
+  <g fill="white" opacity="0.6">
+    <path d="M 165 55 L 167 60 L 172 62 L 167 64 L 165 69 L 163 64 L 158 62 L 163 60 Z"/>
+    <path d="M 40 40 L 41 43 L 44 44 L 41 45 L 40 48 L 39 45 L 36 44 L 39 43 Z"/>
+    <path d="M 160 145 L 161 147 L 163 148 L 161 149 L 160 151 L 159 149 L 157 148 L 159 147 Z"/>
+  </g>
+</svg>

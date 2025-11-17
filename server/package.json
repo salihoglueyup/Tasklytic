@@ -1,0 +1,24 @@
+{
+  "name": "tasklytic-server",
+  "version": "1.0.0",
+  "description": "Tasklytic - Modern Task Management System Backend API",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["tasklytic", "task-manager", "todo", "productivity", "pomodoro"],
+  "author": "Eyüp Zeki Salihoğlu",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "multer": "^2.0.2",
+    "sql.js": "^1.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
