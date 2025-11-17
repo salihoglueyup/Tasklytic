@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  
+  <!-- Pattern -->
+  <g opacity="0.1">
+    <circle cx="100" cy="50" r="40" fill="white"/>
+    <circle cx="1100" cy="250" r="60" fill="white"/>
+    <circle cx="200" cy="250" r="30" fill="white"/>
+    <circle cx="1050" cy="50" r="45" fill="white"/>
+  </g>
+  
+  <!-- Logo Circle -->
+  <g transform="translate(150, 150)">
+    <circle r="80" fill="white" opacity="0.2"/>
+    <circle r="65" fill="white"/>
+    <!-- Checkmark -->
+    <path d="M -20 0 L -5 15 L 25 -20" 
+          stroke="#667eea" 
+          stroke-width="8" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"
+          fill="none"/>
+    <!-- Analytics dots -->
+    <g opacity="0.6">
+      <circle cx="-30" cy="30" r="3" fill="#764ba2"/>
+      <circle cx="-15" cy="22" r="3" fill="#764ba2"/>
+      <circle cx="0" cy="28" r="3" fill="#764ba2"/>
+      <circle cx="15" cy="18" r="3" fill="#764ba2"/>
+      <circle cx="30" cy="20" r="3" fill="#764ba2"/>
+      <path d="M -30 30 L -15 22 L 0 28 L 15 18 L 30 20" 
+            stroke="#764ba2" 
+            stroke-width="2" 
+            fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Title -->
+  <text x="280" y="140" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="url(#textGrad)">
+    Tasklytic
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="280" y="185" font-family="Arial, sans-serif" font-size="28" fill="white" opacity="0.9">
+    Modern, Akıllı ve Güçlü Görev Yönetim Sistemi
+  </text>
+  
+  <!-- Features -->
+  <g transform="translate(280, 220)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="18" fill="white" opacity="0.8">
+      🎯 Pomodoro Timer  •  📊 Detaylı İstatistikler  •  🎮 Gamification  •  🌓 Dark Mode
+    </text>
+  </g>
+  
+  <!-- Sparkles -->
+  <g fill="white" opacity="0.6">
+    <path d="M 950 80 L 954 90 L 964 94 L 954 98 L 950 108 L 946 98 L 936 94 L 946 90 Z"/>
+    <path d="M 1020 180 L 1023 187 L 1030 190 L 1023 193 L 1020 200 L 1017 193 L 1010 190 L 1017 187 Z"/>
+    <path d="M 880 220 L 882 225 L 887 227 L 882 229 L 880 234 L 878 229 L 873 227 L 878 225 Z"/>
+    <path d="M 320 50 L 322 54 L 326 56 L 322 58 L 320 62 L 318 58 L 314 56 L 318 54 Z"/>
+  </g>
+  
+  <!-- Bottom accent line -->
+  <rect x="0" y="295" width="1200" height="5" fill="white" opacity="0.3"/>
+</svg>
